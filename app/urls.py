@@ -20,7 +20,7 @@ from django.urls import path
 from django_distill import distill_path
 
 # Import some views from your Django app
-from app.views import IndexView, PageView
+from app.views import IndexView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
