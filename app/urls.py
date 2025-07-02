@@ -31,9 +31,4 @@ urlpatterns = [
                 name='index',
                 # / is not a valid file name! override it to index.html
                 distill_file='index.html'),
-
-    # A single static page, render this as 'page.html'
-    distill_path('page.html',
-                PageView.as_view(),
-                name='page'),
 ]
