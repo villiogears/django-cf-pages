@@ -1,5 +1,5 @@
 pip install -r requirements.txt　を実行
-次に、publicフォルダを手動で作成。（これが後にcf pagesのアウトプットディレクトリになる。）
+次に、publicフォルダを手動で作成。（これを後にcf pagesのアウトプットディレクトリに手動で設定する。）
 次に、静的サイトを生成するために以下のコマンドをcf pagesのビルドコマンドで実行
 python manage.py distill-local --force public
 
